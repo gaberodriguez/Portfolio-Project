@@ -1,0 +1,30 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+   background-image: url("http://www.dreamscraper.com/wp-content/uploads/2014/06/bg.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   font-family: 'Lato', sans-serif;
+}
+p{
+  padding: 10px;
+  color: black;
+}
+
+.mid-pic {
+  opacity: 0.8;
+}
+.text-thin {
+  font-weight: 100;
+}
+.title-name{
+  font-size: 50px;
+}
+.pic-tags{
+  text-align: center;
+}

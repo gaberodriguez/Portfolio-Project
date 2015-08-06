@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Framework Test Page</title>
+  <link href='http://fonts.googleapis.com/css?family=Lato:300,100,400' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="/css/bootstrap.css">
+  <link rel="stylesheet" href="/css/main.css">
+  <script type="text/javascript" src="/js/jquery-2.1.4.js"></script>
+  <script type="text/javascript" src="/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 top-logo"><img src="http://kc4dh.com/v2/beta/public/img/udacity_dummy.jpg">
+      </div>
+      <div class="col-md-6 text-right text-uppercase">
+        <h1 class="text-thin title-name">Gabriel R Rodriguez</h1>
+        <h3>Front-End Ninja</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <hr>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <img class="img-responsive mid-pic" src="http://www.paultydeman.com/wp-content/uploads/2014/06/HTML.jpg";>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <h2>Featured work</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <img class="img-responsive" src="https://upload.wikimedia.org/wikipedia/commons/8/81/Content-is-like-water-1980.jpg" data-toggle="modal" data-target="#project1">
+        <h3 class="pic-tags">Responsive Layouts</h3>
+      </div>
+      <div class="col-md-6">
+        <img class="img-responsive" src="http://switzercreative.com/wp-content/uploads/2015/06/embrace-responsive-web-design.jpg" data-toggle="modal" data-target="#project2">
+        <h3 class="pic-tags">Making our page Responsive</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <img class="img-responsive" src="http://todaymade.com/blog/wp-content/uploads/2013/06/road.jpg" data-toggle="modal" data-target="#project3">
+        <h3 class="pic-tags">Udacity Course</h3>
+      </div>
+      <div class="col-md-6">
+        <img class="img-responsive" src="https://juanggl.files.wordpress.com/2015/01/explore-wallpaper.jpeg" data-toggle="modal" data-target="#project4">
+        <h3 class="pic-tags">Go Explore</h3>
+      </div>
+    </div>
+  </div>
+  <!-- Modal -->
+  <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" id="myModalLabel">Responsive Layouts</h4>
+        </div>
+        <div class="modal-body">
+          <img class="img-responsive" src="https://upload.wikimedia.org/wikipedia/commons/8/81/Content-is-like-water-1980.jpg"><p>Responsive layouts are really neat. Making our page responsive is making the page adapt to differnt sizes of screen, so our material will look different and better according to what size screen or what size window the page is rendered on. We can also link out code to normalize.css file to ensure that our css code is interpredted the same across all browsers.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" id="myModalLabel">Making our page Responsive</h4>
+        </div>
+        <div class="modal-body">
+          <img class="img-responsive" src="http://switzercreative.com/wp-content/uploads/2015/06/embrace-responsive-web-design.jpg"><p>We can make our page responsive by using different things in CSS, like width for the columns instead of making the width a definite with by using pixels we can set the width to a percentage so it will automatically adjust to the size of the screen/window its in. We can also use media queries to make the size of out stuff on the page change when the screen is smaller, for example we can say, when the screen is smaller than 500px we can resize the page to make it look better on a smaller screen. <a href="http://getbootstrap.com/">Bootstrap</a> is one of the sources I used in helping me understand how this works. Bootstrap acctually is already a framework and we can dive into it and use what we need from it. This is really easy to use once you understand the basics and what you need to do to use it. I really like that this is open source so anybody could use this to help them start their project. This is somethings I will definitely use in the future with future projects and work, it is easy to use and the website offers a lot of information for you to know and get familiar with how to use Bootstrap. </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" id="myModalLabel">Udacity Course</h4>
+        </div>
+        <div class="modal-body">
+          <img class="img-responsive" src="http://todaymade.com/blog/wp-content/uploads/2013/06/road.jpg"><p>This was my last project in this class. I learned a lot about HTML, CSS, Jquery, Bootstrap, and Python. It definitely was an awesome learning experience, I feel more confident in my web development skills and ready for bigger and more complex things! <a href="https://www.google.com/fonts#">Google Fonts </a>is another really good web source that I used for this project. I really like this source because it allows you to explore different types of fonts. Not only does it allow you to choose different fonts but we can see in real time what the font looks like, which is really neat if we are trying to mimic a different page, we can see what the font looks like before we use it on our page. Another neat thing is that not only can we see the font but we can actually play with it like make it thinner, darker, or bigger. I will definitely be using this in future project, this is a great tool to use in a bunch of future projects!</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="project4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" id="myModalLabel">Go Explore</h4>
+        </div>
+        <div class="modal-body">
+          <img class="img-responsive" src="https://juanggl.files.wordpress.com/2015/01/explore-wallpaper.jpeg"><p>I like that we can go to different web sites that and if we like the layout we can inspect and see exactly what the code looks like so we can learn on our own how to create different styles.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
